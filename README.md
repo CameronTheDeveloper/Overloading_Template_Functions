@@ -45,10 +45,10 @@ Program that displays Overloading Template Functions that swap variables and Arr
 		string first = "Rat";
 		string second = "Taco";
 
-		swap (a, b);
-		swap (first, second);
-		cout << "\na: " << a << "\tb:" << b << "\n";
-		cout << "\na: " << first << "\tb: " << second << endl;
+		swap (a, b);		//Swap ints
+		swap (first, second);	//Swap strings
+		cout << "\na: " << a << "\tb:" << b << "\n";		//cout ints after swap
+		cout << "\na: " << first << "\tb: " << second << endl;	//cout strings after swap
 	
 	
 		//Swapping Arrays
@@ -57,8 +57,8 @@ Program that displays Overloading Template Functions that swap variables and Arr
 		int ones[] = {1,1,1,11};
 		const int SIZE = 4;
 	
-		//couts arrays before swap
-		for (int i = 0; i < SIZE; i++)
+		
+		for (int i = 0; i < SIZE; i++)		//couts arrays before swap
 		{
 			cout << nines[i] << "\t" << ones[i] << "\t";
 		}
@@ -67,8 +67,8 @@ Program that displays Overloading Template Functions that swap variables and Arr
 		swap(nines, ones, SIZE);
 		
 	
-		//couts arrays after swaps
-		for (int i = 0; i < SIZE; i++)
+		
+		for (int i = 0; i < SIZE; i++)		//couts Arrays after swap
 		{
 			cout << nines[i] << "\t" << ones[i] << "\t";
 		}
