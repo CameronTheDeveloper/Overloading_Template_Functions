@@ -2,11 +2,11 @@
 Program that displays Overloading Template Functions that swap variables and Arrays
 
 
-   #include <iostream>
-   #include <string>
-   using std::cout;
-   using std::endl;
-   using std::string;
+     #include <iostream>
+     #include <string>
+     using std::cout;
+     using std::endl;
+     using std::string;
 
 
 
@@ -34,8 +34,8 @@ Program that displays Overloading Template Functions that swap variables and Arr
 	}
     }
 
-  int main()
-  {
+    int main()
+    {
 	int a = 15;
 	int b = 25;
 
@@ -73,4 +73,4 @@ Program that displays Overloading Template Functions that swap variables and Arr
  
       return 0;
 
-  }
+    }
