@@ -13,7 +13,7 @@ Program that displays Overloading Template Functions that swap variables and Arr
 
 
     template <typename T>
-    void swap(T &a, T &b)		//Function that Swaps the ints and strings from main
+    void swap(T &a, T &b)		//Template Function that Swaps the ints and strings from main
     {
     	T temporaryVar = a;
 		a = b;
@@ -26,7 +26,7 @@ Program that displays Overloading Template Functions that swap variables and Arr
     template <typename T>
     
     
-    void swap(T a[], T b[], int size)		//Function that Swaps Arrays from main
+    void swap(T a[], T b[], int size)		//Template Function that Swaps Arrays from main
     {
     	for (int i = 0; i < size; i++)
 		{
